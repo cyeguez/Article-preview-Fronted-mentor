@@ -1,8 +1,36 @@
 // fuente de google Manrope
+@use "./_var.scss" as var;
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: 0;
+}
+
+
+body {
+  min-height: 100vh;
+  font-family: var.$font;
+  font-size: 13px;
+  background-color: var.$LightGrayishBlue;
+  position: relative;
+}
+
+li{
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 }
