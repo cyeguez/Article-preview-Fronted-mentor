@@ -5,32 +5,30 @@
     place-content: center;
   }
   .article__container {
-    margin-top: 74px;
-    padding-inline: 24px;  
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    
-  
-  
-  
+    margin: 0;
+   
   
     .article__img {
       width: 290px;
       height:290px;
+     
+      
       
   
       img {
         width: 100%;
-        height: 100%;
-  
+        height: 100%;  
         border-radius: 5px 0px 0 5px;
-        position: center center;
+       
       }
     }
     .article__content {
-      width: 450px;
+      width: 386px;
+      max-width: 450px;
+      height: 290px;
+      max-height: 450px;
       padding-inline: 32px;
       background-color: var.$white;
       border-radius: 0 5px 5px 0px;

@@ -1,29 +1,31 @@
 @use "../var" as var;
 .article__container {
-  margin-top: 74px;
+  margin: 74px auto;
   padding-inline: 24px;  
   display: flex;
   flex-direction: column;
-
-
-
-
+  
   .article__img {
-    width: 100%;
     
-    height:204px;
-
-   
+    width: 100%;   
+    max-width: calc(350px + 64px);
+    margin: 0 auto;    
+    height:220px;
+    max-height: auto;  
 
     img {
-      width: 100%;
-      height: 100%;
+     width: 100%;
+     height: 100%;
 
       border-radius: 5px 5px 0 0;
-      position: center center;
+      ;
+      
     }
   }
   .article__content {
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto;
     padding-inline: 32px;
     background-color: var.$white;
     border-radius: 0 0 5px 5px;
