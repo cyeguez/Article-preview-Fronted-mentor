@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](design/capture/mobile.png)
-![](design/capture/desktop.png)
+![Mobile Mode](design/capture/mobile.png)
+![Desktop Mode](design/capture/desktop.png)
 
 
 Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
@@ -43,10 +43,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://cyeguez.github.io/Article-preview-Fronted-mentor/)
+- Live Site URL: [Add live site URL here](https://github.com/cyeguez/Article-preview-Fronted-mentor)
 
 ## My process
+I started by placing the semantic tags in the html, trying to give it the best possible shape.
+
+
+I decided to incorporate SASS into the project to make my work a bit easier, I defined the variables for colors, fonts and general styles, I created a container that would encompass the entire article, basically the container is divided into two sections, the image and text.
+I thought that being divided into two parts I could easily change the direction of the article with flex depending on the view of the device.
 
 ### Built with
 
@@ -54,10 +59,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- SASS
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -67,21 +71,8 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
+I learned to be more observant of the details of the composition, to imagine what would be the easiest way to assemble the project, to use figma to measure the size of the elements and thus be able to have an idea of ​​the dimensions and spaces.
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
